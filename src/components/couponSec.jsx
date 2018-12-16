@@ -6,7 +6,7 @@ const CouponSec = props => {
     <div className="coupon-section">
       <img
         className="coupon-icon"
-        src={require("../images/mastercard-logo.svg")}
+        src={require("../images/coupon-icon.png")}
         alt=""
       />
       <div className="coupon-details">

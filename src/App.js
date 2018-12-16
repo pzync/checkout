@@ -4,6 +4,7 @@ import Appbar from "./components/appbar";
 import CouponSec from "./components/couponSec";
 import SavedOptionCard from "./components/savedOptionCard";
 import AddMode from "./components/addMode";
+import SavedOptionList from "./components/savedOptionList";
 
 class App extends Component {
   render() {
@@ -12,10 +13,16 @@ class App extends Component {
         <Appbar />
         <CouponSec />
         <div className="saved-section-container">
-          <h3 className="section-title">SAVED</h3>
+          <h3 className="section-title">WE SUGGEST</h3>
           <div className="saved-section">
             <SavedOptionCard />
             <AddMode />
+          </div>
+        </div>
+        <div className="other-section-container">
+          <h3 className="section-title">OTHER</h3>
+          <div className="other-section">
+            <SavedOptionList />
           </div>
         </div>
       </div>
