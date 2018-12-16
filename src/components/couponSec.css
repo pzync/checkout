@@ -1,0 +1,31 @@
+.coupon-section {
+  width: calc(100vw - 64px);
+  background-color: white;
+  margin: 16px auto;
+  display: grid;
+  grid-template-columns: 48px auto;
+  padding: 16px 16px;
+  border-radius: 4px;
+  border: 1px dashed #006dff80;
+}
+
+.coupon-icon {
+  align-self: start;
+  opacity: 0.7;
+}
+
+.coupon-desc {
+  font-size: 12px;
+  line-height: 1.5em;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.coupon-cta {
+  font-size: 12px;
+  color: #006dff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 12px;
+}

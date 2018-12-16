@@ -1,0 +1,22 @@
+.appbar {
+  color: white;
+  height: 64px;
+  display: grid;
+  grid-template-columns: 54px auto auto;
+  background-color: #006dff;
+  align-items: center;
+}
+
+.appbar h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.appbar img {
+  justify-self: center;
+}
+
+.appbar p {
+  margin-right: 16px;
+  justify-self: end;
+}
