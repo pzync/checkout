@@ -1,0 +1,22 @@
+.add-mode {
+  background-color: white;
+  border-radius: 6px;
+  width: 50vw;
+  margin-left: 16px;
+  padding-right: 16px;
+  flex: 0 0 auto;
+  background-color: #eee;
+  padding: 48px 24px 48px 24px;
+  /* -moz-backdrop-filter: blur(2px); */
+}
+
+.add-icon {
+  padding-top: 16px;
+}
+
+.add-cta-text {
+  padding-top: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #33333340;
+}

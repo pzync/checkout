@@ -3,10 +3,22 @@
   background-color: #f8f9fa;
 }
 
-.saved-section .section-title {
+.section-title {
   font-size: 14px;
   font-weight: 800;
   color: #44444480;
   margin-top: 32px;
   margin-left: 16px;
+}
+
+/* the below code CSS is used to make the SAVED section horizontal scrollable */
+/* ref : https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6 */
+
+.saved-section {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  /* overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap; */
 }
