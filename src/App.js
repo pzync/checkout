@@ -5,6 +5,7 @@ import CouponSec from "./components/couponSec";
 import SavedOptionCard from "./components/savedOptionCard";
 import AddMode from "./components/addMode";
 import SavedOptionList from "./components/savedOptionList";
+import OtherOptionList from "./components/otherOptionList";
 
 class App extends Component {
   render() {
@@ -23,6 +24,10 @@ class App extends Component {
           <h3 className="section-title">OTHER</h3>
           <div className="other-section">
             <SavedOptionList />
+            <OtherOptionList />
+            <OtherOptionList />
+            <OtherOptionList />
+            <OtherOptionList />
           </div>
         </div>
       </div>
