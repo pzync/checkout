@@ -1,0 +1,49 @@
+.saved-option-card {
+  background-color: white;
+  border-radius: 6px;
+  width: 60vw;
+  margin-left: 16px;
+  box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.06);
+}
+
+.saved-option-tophalf {
+  padding: 16px 16px;
+}
+
+.saved-option-icon {
+  margin-bottom: 8px;
+}
+
+.saved-option-title {
+  display: inline;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.4em;
+  color: #444444;
+}
+
+.saved-option-network-icon {
+  height: 10px;
+  opacity: 0.6;
+  margin-left: 6px;
+}
+
+.saved-option-numbers {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 700;
+}
+
+.saved-option-cta {
+  background-color: #006dff;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 36px;
+  border-radius: 0 0 6px 6px;
+}

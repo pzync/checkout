@@ -2,3 +2,11 @@
   height: 200vh;
   background-color: #f8f9fa;
 }
+
+.saved-section .section-title {
+  font-size: 14px;
+  font-weight: 800;
+  color: #44444480;
+  margin-top: 32px;
+  margin-left: 16px;
+}
