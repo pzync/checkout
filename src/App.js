@@ -6,6 +6,7 @@ import SavedOptionCard from "./components/savedOptionCard";
 import AddMode from "./components/addMode";
 import SavedOptionList from "./components/savedOptionList";
 import OtherOptionList from "./components/otherOptionList";
+import modedata from "./data/modedata.json";
 
 class App extends Component {
   render() {
@@ -24,10 +25,14 @@ class App extends Component {
           <h3 className="section-title">OTHER</h3>
           <div className="other-section">
             <SavedOptionList />
-            <OtherOptionList />
-            <OtherOptionList />
-            <OtherOptionList />
-            <OtherOptionList />
+            {modedata.modes.map(mode => (
+              <OtherOptionList
+                key={mode.id}
+                icon={mode.icon}
+                title={mode.title}
+                coupon={mode.coupon}
+              />
+            ))}
           </div>
         </div>
       </div>

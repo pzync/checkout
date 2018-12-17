@@ -1,0 +1,34 @@
+{
+  "modes": [
+    {
+      "id": 1,
+      "title": "Pay Later",
+      "icon": "/images/pay-later-icon.svg",
+      "coupon": "5% cashback"
+    },
+    {
+      "id": 2,
+      "title": "Wallet",
+      "icon": "/images/wallet.svg",
+      "coupon": ""
+    },
+    {
+      "id": 3,
+      "title": "BHIM UPI",
+      "icon": "/images/upi.svg",
+      "coupon": "10% Off"
+    },
+    {
+      "id": 4,
+      "title": "Netbanking",
+      "icon": "/images/netbanking.svg",
+      "coupon": "4 Offers"
+    },
+    {
+      "id": 5,
+      "title": "Cash on delivery",
+      "icon": "/images/cod.svg",
+      "coupon": ""
+    }
+  ]
+}

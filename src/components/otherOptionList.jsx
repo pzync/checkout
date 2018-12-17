@@ -1,16 +1,12 @@
 import React from "react";
 import "./otherOptionList.css";
 
-const OtherOptionList = props => {
+const OtherOptionList = ({ icon, title, coupon }) => {
   return (
     <div className="other-option-list">
-      <img
-        src={require("../images/pay-later-icon.svg")}
-        alt=""
-        className="other-list-icon"
-      />
-      <p className="other-option-title">Pay Later</p>
-      <p className="coupon-title">5% Cashback</p>
+      <img src={icon} alt="" className="other-list-icon" />
+      <p className="other-option-title">{title}</p>
+      <p className="coupon-title">{coupon}</p>
       <img
         src={require("../images/chevron-right.svg")}
         alt=""
